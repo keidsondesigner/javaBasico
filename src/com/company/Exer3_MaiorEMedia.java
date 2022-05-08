@@ -14,6 +14,7 @@ public class Exer3_MaiorEMedia {
 
         int numero;
         int maior = 0;
+        int soma = 0;
 
         //int count = 0;
         /*
@@ -32,11 +33,15 @@ public class Exer3_MaiorEMedia {
         for (int count = 0; count < 5; count++){
             System.out.println("Número: ");
             numero = scan.nextInt();
-            if(numero > maior) maior = numero;
-            System.out.println("O maior número inserido é: " + maior);
-        }
 
+            soma = soma + numero;
+
+            if(numero > maior) maior = numero;
+            //System.out.println("O maior número inserido é: " + maior);
+
+        }
         System.out.println("O maior número inserido é: " + maior);
+        System.out.println("Média: " + (soma / 5));
 
     }
 }
