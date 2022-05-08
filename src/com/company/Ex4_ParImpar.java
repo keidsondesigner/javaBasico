@@ -28,7 +28,6 @@ public class Ex4_ParImpar {
 
             if(numero % 2 == 0) quantPares++;
             else quantImapres++;
-
         }
         System.out.println("Quantidade Par: " + quantPares);
         System.out.println("Quantidade Impar: " + quantImapres);
